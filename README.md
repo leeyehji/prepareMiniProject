@@ -40,8 +40,10 @@
 
    Java에서 url을 활용해 Json 문자열을 받아오면 성공이다.
    
+
+
    
-4. 중요) Json 문자열을 Java Object로 변환을 위한 DTO(데이터 전달 객체)를 생성한다
+<strong>4. 중요) Json 문자열을 Java Object로 변환을 위한 DTO(데이터 전달 객체)를 생성한다</strong>
 
    현재 프로그램에서 받아온 공공데이터 Json의 경우
 
