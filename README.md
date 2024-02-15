@@ -1,8 +1,9 @@
 공공 데이터 API를 사용하여 DB까지 연결하는 프로그램
 
-<font size="15">1. 공공 데이터 API URL 생성</font>
+1. 공공 데이터 API URL 생성
 
-  ![활용 신청](https://github.com/leeyehji/practice/assets/152182670/58950183-abad-438e-9762-31ee2de84c84)
+  ![활용 신청](https://github.com/leeyehji/practice/assets/152182670/c69b6b62-7577-41e0-86fe-f971d341f10b)
+
 
    공공 데이터 API를 이용 하기 위해 먼저 data.go.kr 에서 공공데이터 활용 신청을 하고 인증키를 발급받는다
 
@@ -26,7 +27,7 @@
 
   ![스크린샷 2024-02-15 230604](https://github.com/leeyehji/practice/assets/152182670/8794b036-a9e3-4228-9468-a16f6a9f7a87)
 
-   Java에서 url을 활용해 Json을 String으로 받아오면 성공이다.
+   Java에서 url을 활용해 Json 문자열을 받아오면 성공이다.
    
    
 4. 중요) Json 문자열을 Java Object로 변환을 위한 DTO(데이터 전달 객체)를 생성한다
