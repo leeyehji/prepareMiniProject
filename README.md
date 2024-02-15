@@ -50,7 +50,9 @@
 
    각각의 상위 객체는 하위 객체 를 포함 하고 있는 형태로 생성한다.
 
-   노드의 마지막 객체는 " " - > String , 숫자 -> int 형
+   노드의 마지막 타입은  " " - > String , 숫자 -> int 형
+
+   변수명은 실제 json 문자열과 똑같이 하며 이후 DB table도 똑같은 이름으로 생성한다.
 
 5. Json library ( jackson , Gson , JSONsimple )
 
