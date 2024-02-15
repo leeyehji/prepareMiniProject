@@ -1,11 +1,13 @@
 공공 데이터 API를 사용하여 DB까지 연결하는 프로그램
 
-업데이트 해야 할 기능 - > 현재 한 페이지에 10개씩 받아오므로 totalCount 값을 읽어와 pageNo를 for문으로 처리 하여 한번에 모두 받아 올 수 있는 방안 
-                    - > 검색 기능을 구현한다면 url의 keyword 값을 unicode 처리 및 serviceKey를 숨길 수 있는 방안
-                        그 외에도 원하는 url을 직접 변경하지 않아도 자유롭게 변경하여 넣을 수 있는 방안 
-                    - > json을 java object로 변경하는 과정에서 중첩 클래스를 사용하였는데 myBatis에서 중첩된 객체타입(현재 item)을 불러오지 못하는 문제
-                        그에 따라 Item 객체를 직접 사용하지 못하고 ApiDTO를 다시 생성하여 set하는 과정이 추가됨
-              그 외 --- XML 형식의 parse 방법, url이 아닌 외부 json file을 parse 하는 방법
+업데이트 해야 할 기능 
+- > 현재 한 페이지에 10개씩 받아오므로 totalCount 값을 읽어와 pageNo를 for문으로 처리 하여 한번에 모두 받아 올 수 있는 방안 
+- > 검색 기능을 구현한다면 url의 keyword 값을 unicode 처리 및 serviceKey를 숨길 수 있는 방안
+    그 외에도 원하는 url을 직접 변경하지 않아도 자유롭게 변경하여 넣을 수 있는 방안 
+- > json을 java object로 변경하는 과정에서 중첩 클래스를 사용하였는데 myBatis에서 중첩된 객체타입(현재 item)을 불러오지 못하는 문제
+    그에 따라 Item 객체를 직접 사용하지 못하고 ApiDTO를 다시 생성하여 set하는 과정이 추가됨
+
+그 외 --- XML 형식의 parse 방법, url이 아닌 외부 json file을 parse 하는 방법
 
 
 1. 공공 데이터 API URL 생성
